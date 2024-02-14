@@ -1,0 +1,96 @@
+
+/* Part 1 */
+body {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font: 16px Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+    
+
+
+/* Part 2 */
+header , footer{
+    border: 3px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+h1, h2 {
+    color: orange;
+    font-variant: small-caps;
+   
+}
+
+footer p {
+    font-size: 0.8em;
+    color: gray;
+}
+
+/* Part 3 */
+main {
+    float: left;
+    width: 66.66%;
+    padding: 20px;
+    margin: 10px;
+}
+
+aside {
+    float: right;
+    width: 33.33%;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Part 4 */
+.mainimg {
+    border: 1px solid black;
+    width: 300px;
+    max-height: 300px;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/* Part 5 */
+aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 33.33%;
+    padding: 20px;
+    margin: 10px;
+    padding-top: 170px;
+}
+aside ul li {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+aside ul > a {
+    text-decoration: none;
+    color: black;
+}
+
+aside ul > a:hover {
+    color: red;
+}
+
+footer {
+    margin-top: auto;
+
+}
